@@ -1,0 +1,12 @@
+{
+	"name": "Category and Tag Email Notification",
+	"description": "Notifies a user when a new question is asked in his favorite tag or category.",
+	"version": "1.3.0",
+	"date": "2018-08-06",
+	"author": "Amiya Sahu",
+	"author_uri": "http://github.com/amiyasahu/q2a-email-notification",
+	"license": "MIT License",
+	"min_q2a": "1.7",
+	"load_order": "after_db_init"
+    "update_uri": "https://raw.githubusercontent.com/amiyasahu/q2a-email-notification/master/metadata.json",
+}

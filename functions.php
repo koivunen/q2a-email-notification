@@ -47,8 +47,6 @@ function ami_set_all_notification_options() {
                   ami_reset_all_notification_points_options();
             }
       } else {
-            //if none of the elements are selected disable the plugin and send a error message UI 
-            qa_opt('ami_email_notf_enable_plugin', false);
             ami_reset_all_notification_options();
             $error['no_options_selected'] = qa_lang('notify/choose_atleast_one_opt');
       }
